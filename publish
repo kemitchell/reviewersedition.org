@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh kyle@kemitchell.com <<SESSION
+ssh reviewersedition.org <<SESSION
 cd /var/www/reviewersedition.org/
 git fetch origin
 git checkout master
