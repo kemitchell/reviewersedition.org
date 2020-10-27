@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+site=reviewersedition.org
+rsync -a --delete ./index.html ./styles.css $site:/var/www/$site/

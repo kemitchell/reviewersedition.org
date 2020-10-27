@@ -1,7 +1,0 @@
-#!/bin/sh
-ssh reviewersedition.org <<SESSION
-cd /var/www/reviewersedition.org/
-git fetch origin
-git checkout master
-git reset --hard origin/master
-SESSION
