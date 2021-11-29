@@ -4,14 +4,16 @@ html {
   font-family: "Century Schoolbook", Georgia, Times, serif;
 }
 
-header[role=banner],
-main,
-nav[role=navigation],
-footer[role=contentinfo] {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  max-width: 37rem;
+@media screen {
+  header[role=banner],
+  main[role=main],
+  nav[role=navigation],
+  footer[role=contentinfo] {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    max-width: 37rem;
+  }
 }
 
 footer[role=contentinfo] {
