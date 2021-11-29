@@ -23,12 +23,17 @@ footer[role=contentinfo] {
 }
 
 footer[role=contentinfo] {
-  border-top: 1px solid black;
   margin-top: 3rem;
-  padding-bottom: 3rem;
   padding-top: 0;
   text-align: right;
   font-size: 80%;
+}
+
+@media screen {
+  footer[role=contentinfo] {
+    border-top: 1px solid black;
+    padding-bottom: 3rem;
+  }
 }
 
 .example {
