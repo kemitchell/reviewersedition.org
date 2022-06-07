@@ -4,6 +4,7 @@ html {
   font-family: "Century Schoolbook", Georgia, Times, serif;
 }
 
+.deprecation,
 header[role=banner],
 main[role=main],
 nav[role=navigation],
@@ -13,7 +14,18 @@ footer[role=contentinfo] {
   text-align: left;
 }
 
+.deprecation {
+  background-color: #d9edf7;
+  border: 1px solid transparent;
+  border-color: #bce8f1;
+  border-radius: 1ex;
+  color: #31708f;
+  margin-top: 1rem;
+  text-align: center;
+}
+
 @media screen {
+  .deprecation,
   header[role=banner],
   main[role=main],
   nav[role=navigation],
